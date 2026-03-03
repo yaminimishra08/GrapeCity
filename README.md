@@ -106,3 +106,6 @@ The project follows the required Git workflow:
 - GitHub: https://github.com/yaminimishra08
 
 ----
+## 📎 Submission
+
+This repository is submitted as part of the HTML & CSS Portfolio Assignment via GitHub as required.
