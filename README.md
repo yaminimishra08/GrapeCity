@@ -1,4 +1,4 @@
-#Yamini Mishra - Portfolio Website
+# Yamini Mishra - Portfolio Website
 
 ## 📌 Project Overview
 
@@ -101,4 +101,8 @@ The project follows the required Git workflow:
 * Google Fonts
 
 ----
+## 🔗 Connect With Me
+- LinkedIn: www.linkedin.com/in/yaminimishra0804
+- GitHub: https://github.com/yaminimishra08
 
+----
