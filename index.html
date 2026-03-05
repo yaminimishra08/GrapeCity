@@ -1,19 +1,22 @@
-<!DOCTYPE html>
 <!-- Declares the document type and HTML5 version -->
-<html lang="en">
+<!DOCTYPE html>
 <!-- Root element of the webpage-->
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
     <!-- Title displayed in browser tab -->
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
     <!-- Links external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <!-- Main content of the webpage -->
 
+<!-- ===========================
+   Main content of the webpage 
+  ============================== -->
+<body>
+    
     <!-- Header Section -->
     <header>
         <h1>Yamini Mishra</h1>
@@ -38,11 +41,16 @@
             Learning new frameworks, tools, and programming concepts strengthens my adaptability and helps me continuously enhance my technical capabilities.
         </p>
 
-        <ol>
+        <ol id="benefitsList">
             <li>Keeps me updated with industry trends.</li>
             <li>Expands my technical skill set.</li>
             <li>Improves adaptability and learning speed.</li>
         </ol>
+
+        <!-- Adds new Benefits in the list -->
+        <input type="text" id="hobbyInput" placeholder="Enter Benefit"> 
+        <button id="addBtn">Add Benefit</button>
+
     </section>
 
     <!-- About Section -->
@@ -94,13 +102,21 @@
         </form>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
+    <!--=======================
+           Footer Section 
+     ========================= -->
+    <footer><br>
         <p>© 2026 Yamini Mishra. All rights reserved.</p>
         <a href="https://www.linkedin.com/in/yaminimishra0804/">LinkedIn</a><br>
         <a href="https://github.com/yaminimishra08/">GitHub</a>
+        <br>
+        <br>
+        <!-- Adds Current Date and Time -->
+        <p>Current Date & Time: <span id="datetime"> </span> </p>
     </footer>
 
-</body>
+    <!-- Links external JS file -->
+    <script src="script.js"></script>
 
+</body>
 </html>
