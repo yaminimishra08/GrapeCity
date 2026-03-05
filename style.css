@@ -138,6 +138,10 @@ ol {
     margin-top: 8px;
 }
 
+/* Adds space between delete button and text */
+#benefitsList button {
+    margin-left: 10px;
+}
 
 /* ===============================
    Projects Section (Flexbox)
