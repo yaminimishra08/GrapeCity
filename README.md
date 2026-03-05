@@ -94,7 +94,7 @@ The project follows the required Git workflow:
 * CSS3
 * Flexbox
 * Google Fonts
-* **JavaScript (DOM Manipulation, Event Handling)**
+* JavaScript (DOM Manipulation, Event Handling)
 
 ----
 ## 🔗 Connect With Me
