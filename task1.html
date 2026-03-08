@@ -1,0 +1,44 @@
+<!-- Declares the document type and HTML5 version -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title displayed in browser tab -->
+        <title>Task 1: Second Largest Number</title>
+    </head>
+
+<!-- ===========================
+   Main content of the webpage 
+============================== -->
+    <body>
+        <!-- Heading for the page-->
+        <h2>Find Second Largest Number</h2>
+
+<!-- JavaScript Code -->
+    <script>
+        // JavaScript code goes here
+
+        const numbers = [23, 45, 67, 89, 12, 90, 44];
+
+        let largest = -Infinity;
+        let secondlargest = -Infinity;
+
+        numbers.forEach( num =>
+            {
+                if(num > largest)
+                {
+                    secondlargest = largest;
+                    largest = num;
+                }
+                else if (num > secondlargest && num !== largest)
+                {
+                    secondlargest= num;
+                }
+            }
+        );
+
+        console.log("Second Largest:", secondlargest);
+        document.write("Second Largest: " + secondlargest);
+
+        </script>
+    </body>
+</html>
