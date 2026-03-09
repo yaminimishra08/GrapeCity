@@ -1,0 +1,42 @@
+/* styling for the whole page */
+body
+{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  background-color: palevioletred;
+}
+
+/* heading style */
+h2
+{
+  color: white;
+}
+
+/* timer number styling */
+#timer
+{
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px ;
+  color:white;
+}
+
+/* button styling */
+button
+{
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover effect for buttons */
+button:hover
+{
+  background-color: #d94f96;
+}
