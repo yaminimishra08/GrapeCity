@@ -1,0 +1,63 @@
+<!-- Declares the document type and HTML5 version -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title displayed in browser tab -->
+    </head><title>Task 3: Student Score Analysis</title>
+    </head>
+    
+<!-- ===========================
+   Main content of the webpage
+=========================== -->
+    <body>
+        <!-- Heading for the page -->
+        <h2>Student Score Analysis</h2>
+        
+<!-- JavaScript Code -->
+        <script>
+        
+        // creating student data
+        let students = 
+        [
+            { name: "Alice", age: 22, scores: [78, 85, 92] },
+            { name: "Bob", age: 20, scores: [88, 90, 76] },
+            { name: "Charlie", age: 21, scores: [95, 80, 85] }
+        ];
+        
+        // variables to track highest average
+        let highestAvg = 0;
+        let topStudent = "";
+        
+        // loop through students
+        students.forEach(function(student) 
+        {
+            let total = 0;
+            
+            // add all scores of a student
+            student.scores.forEach(function(score) 
+            {
+                total += score;
+            }
+        );
+        
+         // calculate average
+        let avg = total / student.scores.length;
+        
+        // show average on page
+        document.write(student.name + " Average Score: " + avg.toFixed(2) + "<br>");
+        
+        // check if this is the highest average
+        if (avg > highestAvg)
+        {
+            highestAvg = avg;
+            topStudent = student.name;
+        }
+    }
+);
+
+// print the top student
+document.write("<br>Top Student: " + topStudent + 
+               " with an average score of " + highestAvg.toFixed(2));
+               </script>
+    </body>
+</html>
