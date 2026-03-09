@@ -97,6 +97,16 @@ The project follows the required Git workflow:
 * JavaScript (DOM Manipulation, Event Handling)
 
 ----
+
+## 📌 Additional JavaScript Tasks
+This repository also includes four JavaScript tasks demonstrating basic programming and DOM concepts.
+* Task 1: Combine two arrays and return only the unique elements.
+* Task 2: Perform array processing using JavaScript methods and conditions.
+* Task 3: Implement JavaScript logic for data manipulation and processing.
+* Task 4: Build a Countdown Timer with Start, Pause, and Reset functionality using JavaScript and CSS styling.
+
+----
+
 ## 🔗 Connect With Me
 - LinkedIn: www.linkedin.com/in/yaminimishra0804
 - GitHub: https://github.com/yaminimishra08
@@ -104,4 +114,6 @@ The project follows the required Git workflow:
 ----
 ## 📎 Submission
 
-This repository is submitted as part of the HTML & CSS Portfolio Assignment via GitHub as required.
+* This repository is submitted as part of the HTML & CSS Portfolio Assignment via GitHub as required.
+
+* It includes the portfolio website along with four JavaScript tasks demonstrating array operations, data manipulation, and a countdown timer implementation.
